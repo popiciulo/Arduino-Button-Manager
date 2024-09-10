@@ -9,7 +9,7 @@ Button buttons[3] = {
 };
 int totalButtons = 3;
 
-// Initialize the ButtonManager (3 buttons, 500 ms for long press)
+// Initialize the ButtonManager (buttons, totalButtons, 500 ms for long press)
 ButtonManager buttonManager(buttons, totalButtons, 500);
 
 // stop editing !!!
